@@ -12,3 +12,7 @@ bot.onText(/\/mark/, (msg, match) => {
 bot.on('message', msg => {
   bot.sendMessage(msg.chat.id, `Hello, ${msg.from.first_name}`)
 })
+
+bot.onText(/\/schedule/, (msg, match) => {
+	bot.sendMessage(msg.text.match(/\/schedule(.*)/)[1]+`#изменения_расписания`)
+})
