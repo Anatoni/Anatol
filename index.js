@@ -14,5 +14,5 @@ bot.on('message', msg => {
 })
 
 bot.onText(/\/schedule/, (msg, match) => {
-	bot.sendMessage(msg.text.match(/\/schedule(.*)/)[1]+`#изменения_расписания`)
+	bot.sendMessage(`@antoliygucci`, msg.text.match(/\/schedule(.*)/)[1]+`#изменения_расписания`)
 })
