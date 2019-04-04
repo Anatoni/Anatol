@@ -13,6 +13,6 @@ bot.on('message', msg => {
   bot.sendMessage(msg.chat.id, `Hello, ${msg.from.first_name}`)
 })
 
-bot.onText(/\/schedule/, (msg, match) => {
-	bot.sendMessage(`@antoliygucci`, msg.text.match(/\/schedule(.*)/)[1]+` #izmeneniya_raspisaniya`)
+bot.onText(/(формул)|(скажи).*давлени/, (msg, match) => {
+	bot.sendMessage(msg.chat.id, `Давление Р=F/S`)
 })
