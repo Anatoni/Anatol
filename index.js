@@ -17,23 +17,23 @@ bot.onText(/(формул)|(скажи).*давлени/, (msg, match) => {
 	bot.sendMessage(msg.chat.id, `Давление Р=F/S`)
 })
 
-bot.onText(/(формул)|(скажи).плотн*, (msg, match) => {
+bot.onText(/(формул)|(скажи).*плотн/, (msg, match) => {
 	bot.sendMessage(msg.chat.id, `ρ=m/V` )
 })
 
-bot.onText(/(формул)|(скажи).(глубин)|(жидк)*, (msg, match) => {
+bot.onText(/(формул)|(скажи).*(глубин)|(жидк)*/, (msg, match) => {
 	bot.sendMessage(msg.chat.id, `P=ρ∙g∙h`)
 })
 
-bot.onText(/(формул)|(скажи).сил.тяжесь, (msg, match) => {
+bot.onText(/(формул)|(скажи).*сил.*тяжест/, (msg, match) => {
 	bot.sendMessage(msg.chat.id, `Fт=mg`)
 })
 
-bot.onText(/(формул)|(скажи).Архимедов.сил.*, (msg, match) => {
+bot.onText(/(формул)|(скажи).*[Аа]рхимедов.сил/, (msg, match) => {
 	bot.sendMessage(msg.chat.id, `Fa=ρж∙g∙Vт`)
 })
 
-bot.onText(/(формул)|(скажи).ускорени., (msg, match) => {
+bot.onText(/(формул)|(скажи).*ускорени/, (msg, match) => {
 	bot.sendMessage(msg.chat.id, ` a=(υ-υ 0)/t`)
 })
 
