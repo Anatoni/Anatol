@@ -45,7 +45,7 @@ bot.onText(/(формул)|(скажи).*[Кк]оличеств.*веществ/
 	bot.sendMessage(msg.chat.id, `ν=N/ Na`)
 })
 bot.onText(/(формул)|(скажи).*ускорени/, (msg, match) => {
-	bot.sendMessage(msg.chat.id, `ничего`)
+	bot.sendMessage(msg.chat.id, `a=(v-v0):t`)
 })
 /*
 	bot.sendMessage(msg.chat.id, ` a=(υ-υ 0)/t`)
