@@ -36,6 +36,14 @@ bot.onText(/(формул)|(скажи).*[Аа]рхимедов.*сил/, (msg, 
 bot.onText(/(формул)|(скажи).*скорост.*движен.*окружност/, (msg, match) => {
 	bot.sendMessage(msg.chat.id, `v= 2πR / Т`)
 })
+
+bot.onText(/(формул)|(скажи).*[Цц]енстростримительно.*ускорени/, (msg, match) => {
+	bot.sendMessage(msg.chat.id, ` a=v2/R`)
+})
+
+bot.onText(/(формул)|(скажи).*[Кк]оличеств.*веществ/, (msg, match) => {
+	bot.sendMessage(msg.chat.id, `ν=N/ Na`)
+})
 /*
 	bot.sendMessage(msg.chat.id, ` a=(υ-υ 0)/t`)
 })bot.onText(/(формул)|(скажи).*(глубин)|(жидк)/, (msg, match) => {
@@ -45,11 +53,7 @@ bot.onText(/(формул)|(скажи).*ускорени/, (msg, match) => {
 
 
 
-bot.onText(/(формул)|(скажи).*[Цц]енстростримительно.*ускорени/, (msg, match) => {
-	bot.sendMessage(msg.chat.id, ` a=v2/R`)
-})		
+		
 
-bot.onText(/(формул)|(скажи).*[Кк]оличеств.*веществ/, (msg, match) => {
-	bot.sendMessage(msg.chat.id, `ν=N/ Na`)
-})	
+	
 */
