@@ -32,7 +32,7 @@ bot.onText(/(формул)|(скажи).*сил.*тяжест/, (msg, match) => 
 bot.onText(/(формул)|(скажи).*[Аа]рхимедов.*сил/, (msg, match) => {
 	bot.sendMessage(msg.chat.id, `Fa=ρж∙g∙Vт`)
 })
-/*
+
 	bot.sendMessage(msg.chat.id, ` a=(υ-υ 0)/t`)
 })bot.onText(/(формул)|(скажи).*(глубин)|(жидк)/, (msg, match) => {
 bot.onText(/(формул)|(скажи).*ускорени/, (msg, match) => {
@@ -40,7 +40,8 @@ bot.onText(/(формул)|(скажи).*ускорени/, (msg, match) => {
 })
 bot.onText(/(формул)|(скажи).*скорост.*движен.*окружност/, (msg, match) => {
 	bot.sendMessage(msg.chat.id, `υ=2πR/Т`)
-})	
+})
+/*	
 bot.onText(/(формул)|(скажи).*[Цц]енстростримительно.*ускорени/, (msg, match) => {
 	bot.sendMessage(msg.chat.id, ` a=υ2/R`)
 })		
